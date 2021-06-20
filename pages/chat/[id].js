@@ -6,7 +6,6 @@ import {auth, db} from '../../firebase';
 import {useAuthState} from "react-firebase-hooks/auth";
 import getRecipientEmail from "../../utils/getRecipientEmail";
 
-console.log("testing id");
 function Chat({chat, messages}) {
     const [user] = useAuthState(auth);
 
@@ -50,7 +49,6 @@ export async function getServerSideProps(context) {
         ...chatRes.data()
     }
 
-    console.log("chat =", chat);
 
     return {
         props: {
