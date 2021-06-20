@@ -5,7 +5,7 @@ function Loading() {
     return (
         <center style={{display: "grid", placeItems: "center", height: "100vh"}}>
             <div>
-                <img src="http://assets.stickpng.cpm/images/580b57fcd9996e24bc43c543.png" 
+                <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" 
                     alt="logo picture"
                     style={{marginBottom: 10}}
                     height={200}

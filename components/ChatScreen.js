@@ -151,6 +151,7 @@ const Header = styled.div`
   padding: 11px;
   height: 70px;
   align-items: center;
+  margin-bottom: 5px;
   border-bottom: 1px solid whitesmoke;
 `;
 

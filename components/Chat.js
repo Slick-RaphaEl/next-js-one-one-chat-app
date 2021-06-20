@@ -36,10 +36,10 @@ function Chat({ id, users }) {
 export default Chat;
 
 const Container = styled.div`
-  display: inline-block;
+  display: flex;
   align-items: left;
   cursor: pointer;
-  padding: 10px;
+  padding: 5px;
   word-break: break-word;
 
   :hover {
@@ -49,5 +49,6 @@ const Container = styled.div`
 
 const UserAvatar = styled(Avatar)`
   margin: 5px;
-  margin-right: 15px;
+  margin-right: 2px;
+  display: inline-block;
 `;

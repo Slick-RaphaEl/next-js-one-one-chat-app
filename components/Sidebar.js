@@ -104,7 +104,9 @@ const Container = styled.div`
     scrollbar-width: none;
 `;
 
-const ChatContainer = styled.div``;
+const ChatContainer = styled.div`
+  display: flex;
+`;
 
 const Search = styled.div`
   display: flex;
@@ -137,7 +139,7 @@ const Header = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    height 70px;
+    height: 70px;
     border-bottom: 1px solid whitesmoke;
 `;
 

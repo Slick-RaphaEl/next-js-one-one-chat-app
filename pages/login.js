@@ -15,7 +15,7 @@ function Login() {
             </Head>
 
             <LoginInContainer>
-                <logo src="https://www.stickpng.com/img/icons-logos-emojis/tech-companies/whatsapp-logo" alt="logo picture" />
+                <logo src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c543.png" alt="logo picture" />
                 <Button onClick={signIn} variant="outlined">Signin With Google</Button>
             </LoginInContainer>
         </Container>
